@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <script src="mixing.js"></script>
+    <script type="text/javascript">
+        var Mix = [];
+        var alldata;
+        var ingredients =[];
+        var checkboxes =[];
+        getdata()  .then(data => {
+            alldata = data;
+        });;
+    </script>
+    <meta charset="UTF-8">
+    <title>piss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class = "content">
+		<div class="header">
+			<div class="header__title">а зачем</div>
+        </div>
+		<div class = "work_table", id = "work_table">
+            <script type="text/javascript">
+                setTimeout(() => {  displayCheckboxes("work_table"); }, 1000);
+            </script>
+		</div>
+        <div class = "result">
+            <div id="mixname">Start mixing :)</div>
+            <img id = "image", style="height: 200px; padding: 10px;" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Kawaii_paper_coffee_cup_clip_art.svg"></img>
+            <div id="description" style="width: 500px; text-align: center;"></div>
+        </div>
+	</div>
+</body>
