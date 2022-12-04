@@ -2,17 +2,6 @@ body {
     background-color: #F0F0F0;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
-.wrapper {
-    min-height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-}
 .content {
     flex: 1 1 auto;
 }
@@ -37,28 +26,12 @@ body {
     font-size: 40px;
     float: left;
 }
-.button_menu {
-	display: inline-block;
-	margin-top: 30px;
-	margin-left: 50px;
-	display: flex;
-}
-
-.work_menu {
-	margin-bottom: 140px;
-	margin-top: 140px;
-	margin-left: 50px;
-	display: inline-block;
-}
-.work_menu_item{
-	float: left;
-    margin-right: 100px;
-}
 .work_table{
     padding-left: 200px;
     padding-right: 100px;
+    padding-bottom: 20px;
     margin-top: 120px;
-    height: 283px;
+    height: 280px;
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
@@ -66,6 +39,7 @@ body {
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
+    line-height: 20px;
 }
 .result{
     display: flex;
